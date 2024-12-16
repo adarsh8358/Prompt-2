@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1463595709917-93fb36118407?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    margin-top: 50%;
+    margin-left: 25%;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+    margin-left: 50%;
+}
+
+.items >a{
+    text-decoration: none;
+    color: white;
+}
+
+.items >a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.ri-menu-fill{
+    display: none;
+}
+
+.sib{
+    padding: 10px 20px;
+    border-radius: 10%;
+    margin-right: 1%;
+    background-color: rgba(128, 128, 128, 0.589);
+    color: white;
+}
+
+.sib:hover{
+    background-color: rgba(201, 178, 76, 0.616);
+    color: black;    
+}
+
+h1{
+    font-family: montserrat;
+    font-size: 60px;
+    margin-top: 3.2%;
+    margin-left: 10%;
+    color: whitesmoke;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: whitesmoke;
+}
+
+p{
+    font-family: montserrat;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: whitesmoke;
+}
+
+.emb{
+    padding: 10px 20px;
+    border-radius: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: rgba(128, 128, 128, 0.589);
+    color: white;
+}
+
+.emb:hover{
+    background-color: rgba(201, 178, 76, 0.616);
+    color: black;    
+}
+
+.images{
+    display: flex;
+    gap: 30px;
+    margin-left: 5.8%;
+    margin-top: 1.5%;
+}
+
+.images img{
+    height: 150px;
+    width: 200px;
+    border: 2px solid rgb(221, 216, 216);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px black;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.images img:hover{
+    filter: scale(1);
+    transform: scale(1.03);
+}
+
+
+.page2{
+    height: 110%;
+    width: 100%;
+    background-color: #A2A2A2;
+    display: none;
+}
+
+

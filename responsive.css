@@ -1,0 +1,54 @@
+@media (max-width:600px) {
+
+    .items{
+        display: none;
+    }
+
+    .ri-menu-fill{
+        display: block;
+        margin-right: 3%;
+    }
+
+    .sib{
+        padding: 5px 10px;
+        margin-left: 40%;
+    }
+
+    .logo img{
+        height: 70px;
+        margin-top: 20%;
+        margin-left: 20%;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 20%;
+    }
+
+    h2{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    
+    p{
+        font-size: 7.8px;
+        margin-top: 5%;
+    }
+
+    .emb{
+        padding: 5px 8px;
+        font-size: 10px;
+        margin-top: 10%;
+    }
+
+    .images{
+        flex-direction: column;
+        margin-top: 15%;
+        align-items: center;
+        margin-right: 6%;
+    }
+
+    .page2{
+        display: block;
+    }
+}
